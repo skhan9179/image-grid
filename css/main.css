@@ -17,6 +17,25 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+ width: 100%;
+ display: block;
+}
+
+.photo:nth-child(2),
+.photo:nth-child(5) {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
